@@ -27,10 +27,10 @@ def apply_perspective_transform(image, src_points, dst_points, output_size=(720,
 
 # TODO: 將點擊座標值輸入到此
 src_points = np.float32([
-    (325, 538), # 左上
-    (663, 350), # 右上 
-    (913, 485), # 右下
-    (590, 711) # 左下
+    (85, 807), # 左上
+    (448, 655), # 右上 
+    (681, 770), # 右下
+    (234, 1050) # 左下
 ])
 
 dst_points = np.float32([
